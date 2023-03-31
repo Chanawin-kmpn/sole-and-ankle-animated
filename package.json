@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "create-component": "powershell New-Item -ItemType Directory %1; cd %1; powershell New-Item -ItemType File index.js; powershell New-Item -ItemType File %1.js"
   },
   "eslintConfig": {
     "extends": [
